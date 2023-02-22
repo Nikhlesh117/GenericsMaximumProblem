@@ -21,7 +21,7 @@ namespace FindMaximum
             Console.WriteLine("\n--------------");
 
             Console.WriteLine("Test case 3: ");
-            string val3 = GenericMethod.MaxValue<string>("Peach", "Apple", "Orange");
+            string val3 = GenericMethod.MaxValue<string>("Peach", "Apple", "Banana");
             Console.WriteLine($"{val3} is the greatest among three number");
         }
     }
