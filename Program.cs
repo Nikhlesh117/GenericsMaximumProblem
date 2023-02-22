@@ -9,18 +9,18 @@
             Console.WriteLine("The test cases to find the maximum numbe among three numbers");
 
             Console.WriteLine("\nTest case 1: ");
-            int max1 = MaximumInteger.MaxInteger(100, 50, 75);
-            Console.WriteLine($"{max1} is the greatest among three number");
+            int num1 = MaximumInteger.MaxInteger(100, 50, 75);
+            Console.WriteLine($"{num1} is the greatest among three number");
             Console.WriteLine("\n--------------");
 
             Console.WriteLine("Test case 2: ");
-            int max2 = MaximumInteger.MaxInteger(40, 60, 20);
-            Console.WriteLine($"{max2} is the greatest among three number");
+            int num2 = MaximumInteger.MaxInteger(40, 60, 20);
+            Console.WriteLine($"{num2} is the greatest among three number");
             Console.WriteLine("\n--------------");
 
             Console.WriteLine("Test case 3: ");
-            int max3 = MaximumInteger.MaxInteger(10, 35, 50);
-            Console.WriteLine($"{max3} is the greatest among three number");
+            int num3 = MaximumInteger.MaxInteger(10, 35, 50);
+            Console.WriteLine($"{num3} is the greatest among three number");
         }
     }
 }
